@@ -1,0 +1,155 @@
+@font-face{
+    font-family: VT323;
+	src: url(VT323-Regular.ttf)
+}
+
+@font-face {
+    font-family: Antic;
+    src: url(Antic-Regular.ttf);
+}
+
+*{
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+body{
+    font-family: Antic;
+    color: white    ;
+    background-image: url(fundo.png);
+    text-align: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem{
+    height: 40px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color:#d500f9;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+
+
+#corpo{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.hearts{
+    width: 100px;
+    padding: 20px;
+}
+
+#titulopagina{
+    font-family: VT323;
+    font-size: 100px;
+    align-items: center;
+    text-align: center;
+    margin: 0%;
+}
+
+#home{
+    text-align: center;
+    align-items: center;
+    padding: 150px;
+}
+
+.linha{
+    width: 300px;
+    padding: 25px;
+}
+
+#contextualização{
+    width: 1000px;
+    align-items: center;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo3{
+    font-family: VT323;
+    color: #3af1f9;
+    font-size: 50px;
+    text-align: center;
+}
+
+.titulo2{
+    font-family: VT323;
+    color:#d500f9;
+    font-size: 50px;
+    text-align: center;
+}
+
+.titulo1{
+    font-family: VT323;
+    color:#91f963;
+    font-size: 50px;
+    text-align: center;
+}
+
+.gdd{
+    width: 900px;
+    height: 600px;
+}
+
+#boxlinks{
+    width: 500px;
+    color: #3af1f9;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
+
+.links{
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: #3af1f9;
+}
+
+h3{
+    font-family: VT323;
+}
+
+.imagemdivulgacao{
+    width: 400px;
+    padding: 15px;
+}
+
+#blocotrabalhos{
+    width: 1260px;
+    display: flex;
+}
+
+.trabalhos{
+    display: flex;
+    flex-direction: column;
+}
