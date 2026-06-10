@@ -7,15 +7,54 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <main class="pagina">  
-    <section id="jogo" class="area-jogo">
+  <header class="topo">
+    <nav class="menu" aria-label="Menu principal">
+      <a href="#instrucoes">Instruções</a>
+      <a href="#jogo">Jogo</a>
+      <a href="#material">Material de consulta</a>
+    </nav>
+  </header>
+
+  <main class="pagina">
+    <section class="banner">
+      <img src="img/Titulo.png" alt="Programação para Web Design - Professora Melissa Schreder" />
+    </section>
+
+    <section id="instrucoes" class="card instrucoes">
+      <h2>Instruções</h2>
+      <p class="subtitulo">Leia as orientações antes de iniciar o jogo.</p>
+
+      <div class="grade-instrucoes">
+        <div>
+          <h3>🎯 Objetivo</h3>
+          <p>Praticar os principais seletores CSS resolvendo desafios no jogo.</p>
+        </div>
+
+        <div>
+          <h3>🕹️ Como jogar</h3>
+          <p>Escolha uma fase, leia a missão, observe os elementos e digite o seletor CSS correto.</p>
+        </div>
+
+        <div>
+          <h3>⭐ Pontuação</h3>
+          <p>Resposta correta: <strong>+10 pontos</strong>. Resposta incorreta: <strong>-5 pontos</strong>.</p>
+        </div>
+
+        <div>
+          <h3>🔴 Atenção</h3>
+          <p>Após abrir uma fase, para voltar à página inicial é necessário clicar no botão vermelho de parar do Scratch.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="jogo" class="card area-jogo">
       <div class="titulo-jogo">
-        <h2>Jogo dos Seletores CSS</h2>    
+        <h2>Jogo dos Seletores CSS</h2>
+        <p>Clique na bandeira verde para começar.</p>
       </div>
 
       <div class="scratch">
-        <div class="placeholder">
-          <iframe src="https://scratch.mit.edu/projects/1319149993/embed" 
+        <iframe src="https://scratch.mit.edu/projects/1319149993/embed" 
           allowtransparency="true" 
           width="885" 
           height="700" 
@@ -23,15 +62,18 @@
           scrolling="no" 
           allowfullscreen>
         </iframe>
-        </div>
       </div>
+    </section>
+
+    <section id="material" class="card material">
+      <h2>Material de consulta</h2>
+      <p class="subtitulo">Use os slides para revisar os seletores CSS durante a atividade.</p>
+      <a class="botao-material" href="material/Seletores-CSS.pptx" download>Baixar slides de Seletores CSS</a>
     </section>
   </main>
 
   <footer>
     <p>Programação para Web Design • Professora Melissa Schreder</p>
   </footer>
-
-  <script src="js/script.js"></script>
 </body>
 </html>
